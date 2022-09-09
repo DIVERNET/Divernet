@@ -10,7 +10,7 @@ p, li, h3{
 
 .cover {
     height: 400px;
-    background-image: url(/pages/Divernet/pape.jpg);
+    background-image: url(pape.jpg);
     color: white;
     background-size: cover;
     background-position: center;
