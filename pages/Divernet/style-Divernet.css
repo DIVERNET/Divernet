@@ -73,13 +73,15 @@ p, li, h3{
    
 }
 .image-container{
-    width: 100px;  
-    padding: 8rem;
+    width: 18rem;  
+    padding: 6rem;
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
     margin-left: 2rem;
-    border-radius: 10rem;
+    border-radius: 0rem;
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgb(0, 0, 0,0.1), 0 2px 4px -1px rgb(0, 0, 0,0.06);
     
 
 }

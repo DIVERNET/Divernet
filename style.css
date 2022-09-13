@@ -21,7 +21,9 @@ p,li, h3{
 .card{
     border: 0 !important;
     box-shadow: 0 4px 6px -1px rgb(0, 0, 0,0.1), 0 2px 4px -1px rgb(0, 0, 0,0.06);
+    
 }
+
 
 .cover-small{
     height: 200px ;
@@ -36,14 +38,16 @@ p,li, h3{
 }
 
 .product-stripe{
-    overflow-x: scroll;
+    overflow-x: hidden;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .stripe-container{
     display: flex;
     flex-direction: row;
+    
 }
+
 .stripe-container .card{
     width: 300px;
     flex-shrink: 0;
@@ -61,4 +65,20 @@ p,li, h3{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.stripe-container{
+    
+    animation: drift 12s  linear infinite;
+}
+
+
+@keyframes drift {
+    100%{
+        transform: translatex(1300px);
+        
+    }
+    0%{
+        transform: translatex(-1200px);
+    }
 }
