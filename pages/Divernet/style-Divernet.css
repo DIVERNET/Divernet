@@ -73,7 +73,7 @@ p, li, h3{
 }
 .slider-container{
   
-    animation: drift 12s  linear infinite;
+    animation: drift 30s  linear infinite;
    
 }
 .image-container{
@@ -89,6 +89,7 @@ p, li, h3{
     
 
 }
+
 
 @keyframes drift {
     100%{

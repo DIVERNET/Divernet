@@ -69,16 +69,13 @@ p,li, h3{
 
 .stripe-container{
     
-    animation: drift 12s  linear infinite;
+    animation: drift 30s  linear infinite;
 }
 
 
 @keyframes drift {
-    100%{
-        transform: translatex(1300px);
-        
+    0%{transform: translatex(-1400px);}
+   
+   100%{transform: translatex(1400px);}
     }
-    0%{
-        transform: translatex(-1200px);
-    }
-}
+    
